@@ -8,5 +8,7 @@
   },
   "devDependencies": {
     "jasmine": "^4.3.0"
-  }
+  },
+  "author": "John Hunt",
+  "license": "ISC"
 }

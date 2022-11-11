@@ -9,8 +9,8 @@ class StringCalculator {
         const delimiterRegExp = /[,;\n]/
         let numbers = numberString
           .split(delimiterRegExp)
-          .filter(num => num < 1001)
-          .map(n => parseInt(n));
+          .map(n => parseInt(n))
+          .filter(num => num < 1001);
         let negatives = numbers.filter(num => num < 0);
         if(negatives.length > 0){
           throw new Error('Negative Number Error');
