@@ -7,7 +7,7 @@
     "test": "jasmine"
   },
   "devDependencies": {
-    "jasmine": "^4.3.0"
+    "jasmine": "^4.5.0"
   },
   "author": "John Hunt",
   "license": "ISC"
